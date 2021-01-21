@@ -1,0 +1,57 @@
+{
+  "规则": "所有key值保持和测试方法名称一致",
+  "test_add": [
+    {
+      "attr1": "attr1",
+      "attr2": "attr2",
+      "success": "true",
+      "expect": "200"
+    },
+    {
+      "attr1": "attr3",
+      "attr2": "attr4",
+      "success": "true",
+      "expect": "200"
+    }
+  ],
+  "test_upd": [
+    {
+      "attr1": "attr5",
+      "attr2": "attr6",
+      "success": "true",
+      "expect": "200"
+    },
+    {
+      "attr1": "attr7",
+      "attr2": "attr8",
+      "success": "true",
+      "expect": "200"
+    }
+  ],
+  "test_get": [
+    {
+      "attr1": "attr5",
+      "attr2": "attr6",
+      "success": "true",
+      "expect": "200"
+    },
+    {
+      "attr1": "attr7",
+      "attr2": "attr8",
+      "success": "true",
+      "expect": "200"
+    }
+  ],
+  "test_del": [
+    {
+      "uid": 1,
+      "success": "true",
+      "expect": "200"
+    },
+    {
+      "uid": 2,
+      "success": "true",
+      "expect": "200"
+    }
+  ]
+}
